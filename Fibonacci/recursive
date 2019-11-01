@@ -1,0 +1,5 @@
+const fibonacciSequence = (n) => {
+  if (n <= 1) return 1;
+
+  return fibonacciSequence(num-1) + fibonacciSequence(num-2);
+}
